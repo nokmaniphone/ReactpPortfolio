@@ -13,6 +13,8 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
+import purple from '@material-ui/core/colors/purple'
+
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -44,11 +46,15 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),
   },
+  primary: {
+    color: purple.A400,
+  },
 }));
 
-const cards = [{ name: 'Felp', description: "A mobile-responsive, full stack application, utilizing MySQL, Express, React-views, and Node. An app restaurant for users to check a rating by Search name and location . Hand built user authentication to Register and login to write a review and give restaurant a rating, and using UI kit styling library. Utilizes RESTful routes.", github: 'https://github.com/ariasadeghi530/eFlow-', deployed: 'https://frozen-atoll-04274.herokuapp.com/' },
-{ name: 'Pin', description: "Project Idea Network, a platform for developers to share project ideas for their portfolios. Currently in development. April 2020", github: 'https://github.com/ariasadeghi530/pin', deployed: 'https://github.com/ariasadeghi530/pin' },
-{ name: 'GitHoops', description: "A mobile-responsive web app with up-to-date NBA game, team, and player information, utilizing theSportsDB API, mySportsFeed API, ESPN API, and Google Maps API. Utilized HTML, CSS, JavaScript, and Materialize's styling library.", github: 'https://github.com/ariasadeghi530/gitHoops', deployed: 'https://ariasadeghi530.github.io/gitHoops/' }]
+const cards = [{
+  name: 'Felp', description: "This is a restaurant application whereby users can view restaurant ratings by simply searching for the establishment’s name and location. Users are also welcomed to write reviews of the restaurants they’ve attended. This is a hand- built, user authentication register and login to write a review and give restaurant a rating and using UI kit styling library.It utilizes RESTful routes, a mobile - responsive, full stack application, utilizing MySQL, Express, React - views, and Node.", github: 'https://github.com/evanyang1/felp/tree/nok', deployed: 'https://warm-stream-20124.herokuapp.com/' },
+  { name: 'Garden Array', description: "Currently in development. April 2020", github: 'https://github.com/UCI-Bootcamp/Garden-Array', deployed: 'https://github.com/UCI-Bootcamp/Garden-Array' },
+  { name: 'GitHoops', description: "A mobile-responsive web app with up-to-date NBA game, team, and player information, utilizing theSportsDB API, mySportsFeed API, ESPN API, and Google Maps API. Utilized HTML, CSS, JavaScript, and Materialize's styling library.", github: 'https://ariasadeghi530.github.io/projectOne/', deployed: 'https://github.com/ariasadeghi530/projectOne' }]
 
 export default function Projects() {
   const classes = useStyles();
@@ -62,8 +68,8 @@ export default function Projects() {
               image="https://source.unsplash.com/random"
               title="Image title"
             />
-            <CardContent className={classes.cardContent}>
-              <Typography gutterBottom variant="h5" component="h2">
+            <CardContent className={classes.cardContent} style={{ backgroundColor: 'black', color:'white' }}>
+              <Typography gutterBottom variant="h5" component="h2" className={classes.primary}>
                 {card.name}
               </Typography>
               <Typography>
@@ -71,10 +77,10 @@ export default function Projects() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button href={card.github} target="_blank" size="small" color="primary">
+              <Button href={card.github} target="_blank" size="small" className={classes.primary}>
                 Github
           </Button>
-              <Button href={card.deployed} target="_blank" size="small" color="primary">
+              <Button href={card.deployed} target="_blank" size="small" className={classes.primary}>
                 Deployed
           </Button>
             </CardActions>
