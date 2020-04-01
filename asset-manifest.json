@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/static/js/main.719aaa7d.chunk.js",
-    "main.js.map": "/static/js/main.719aaa7d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.924a7737.js",
-    "runtime-main.js.map": "/static/js/runtime-main.924a7737.js.map",
-    "static/js/2.3a8cdbc2.chunk.js": "/static/js/2.3a8cdbc2.chunk.js",
-    "static/js/2.3a8cdbc2.chunk.js.map": "/static/js/2.3a8cdbc2.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.33e70e9f8ed5caaf81a34fb7325d8416.js": "/precache-manifest.33e70e9f8ed5caaf81a34fb7325d8416.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.3a8cdbc2.chunk.js.LICENSE.txt": "/static/js/2.3a8cdbc2.chunk.js.LICENSE.txt",
-    "static/media/nokmaniphone.jpg": "/static/media/nokmaniphone.1cdaf88c.jpg"
+    "main.js": "/nokmaniphone-portfolio-react/static/js/main.478e1caf.chunk.js",
+    "main.js.map": "/nokmaniphone-portfolio-react/static/js/main.478e1caf.chunk.js.map",
+    "runtime-main.js": "/nokmaniphone-portfolio-react/static/js/runtime-main.a88bdf2f.js",
+    "runtime-main.js.map": "/nokmaniphone-portfolio-react/static/js/runtime-main.a88bdf2f.js.map",
+    "static/js/2.3a8cdbc2.chunk.js": "/nokmaniphone-portfolio-react/static/js/2.3a8cdbc2.chunk.js",
+    "static/js/2.3a8cdbc2.chunk.js.map": "/nokmaniphone-portfolio-react/static/js/2.3a8cdbc2.chunk.js.map",
+    "index.html": "/nokmaniphone-portfolio-react/index.html",
+    "precache-manifest.b61a4ab8e4abc6b6c4925aa65914bc0b.js": "/nokmaniphone-portfolio-react/precache-manifest.b61a4ab8e4abc6b6c4925aa65914bc0b.js",
+    "service-worker.js": "/nokmaniphone-portfolio-react/service-worker.js",
+    "static/js/2.3a8cdbc2.chunk.js.LICENSE.txt": "/nokmaniphone-portfolio-react/static/js/2.3a8cdbc2.chunk.js.LICENSE.txt",
+    "static/media/nokmaniphone.jpg": "/nokmaniphone-portfolio-react/static/media/nokmaniphone.1cdaf88c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.924a7737.js",
+    "static/js/runtime-main.a88bdf2f.js",
     "static/js/2.3a8cdbc2.chunk.js",
-    "static/js/main.719aaa7d.chunk.js"
+    "static/js/main.478e1caf.chunk.js"
   ]
 }
