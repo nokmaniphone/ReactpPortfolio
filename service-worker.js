@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nokmaniphone-portfolio-react/precache-manifest.b61a4ab8e4abc6b6c4925aa65914bc0b.js"
+  "/nokmaniphone-portfolio-react/precache-manifest.d01e84662902c04588bd56e9b688e280.js"
 );
 
 self.addEventListener('message', (event) => {

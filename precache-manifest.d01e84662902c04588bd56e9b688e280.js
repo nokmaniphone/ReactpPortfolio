@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71dbfd3c5b0b25f482dcad9a36d5f00f",
+    "revision": "6e1cbdbf2ac93edd4aafd9a874019c6f",
     "url": "/nokmaniphone-portfolio-react/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nokmaniphone-portfolio-react/static/js/2.3a8cdbc2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce6ff9eeb152c3151fae",
-    "url": "/nokmaniphone-portfolio-react/static/js/main.478e1caf.chunk.js"
+    "revision": "a1a2789e204157966bea",
+    "url": "/nokmaniphone-portfolio-react/static/js/main.02ea1d33.chunk.js"
   },
   {
     "revision": "199f72c0485fcf31e8bb",
